@@ -1,0 +1,5 @@
+[Diagnostics]
+Status=-1
+[Collate Recovery]
+Scenario=C:\Users\Administrator\Desktop\LoadRunner-Final\smoketest_result\SmokeTestScenario1.lrs
+Completed=0

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Administrator\Desktop\LoadRunner-Final\ThinkingTester\AddContact
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\administrator\desktop\loadrunner-final\thinkingtester\addcontact\\logfile.log
+c:\users\administrator\desktop\loadrunner-final\thinkingtester\addcontact\\combined_AddContact.c
+c:\users\administrator\desktop\loadrunner-final\thinkingtester\addcontact\\pre_cci.c

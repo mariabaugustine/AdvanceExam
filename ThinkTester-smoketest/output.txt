@@ -1,0 +1,23 @@
+Virtual User Script started at: 24-02-2024 15:55:31
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Administrator\Desktop\LoadRunner-Final\ThinkTester-smoketest\\default.cfg"  	[MsgId: MMSG-27141]
+vuser_init.c(3): web_set_sockets_option started  	[MsgId: MMSG-26355]
+vuser_init.c(3): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+vuser_init.c(5): web_add_header("Accept-Language") started  	[MsgId: MMSG-26355]
+vuser_init.c(5): web_add_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+vuser_init.c(8): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_init.c(8): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_init.c(12): web_url("thinking-tester-contact-list.herokuapp.com") started  	[MsgId: MMSG-26355]
+vuser_init.c(12): Found resource "https://thinking-tester-contact-list.herokuapp.com/css/styles.css" in HTML "https://thinking-tester-contact-list.herokuapp.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(12): Found resource "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterLogo.png" in HTML "https://thinking-tester-contact-list.herokuapp.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(12): Found resource "https://thinking-tester-contact-list.herokuapp.com/js/login.js" in HTML "https://thinking-tester-contact-list.herokuapp.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(12): Registered web_reg_find successful for "Text=Contact List" (count=2)  	[MsgId: MMSG-26364]
+vuser_init.c(12): web_url("thinking-tester-contact-list.herokuapp.com") was successful, 15841 body bytes, 3223 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(23): web_custom_request("json") started  	[MsgId: MMSG-26355]
+vuser_init.c(23): Error -27721: Step download timeout (120 seconds) has expired when downloading resource "http://update.googleapis.com/service/update2/json?cup2key=13:viILA91czdJtUky2g8fJhkZXIZEihqneb7JHO0rAVo0&cup2hreq=be5c0741fbd39fce506cc1cf8f10c7315a4aae6f4e77d57945df439dbf688147"  	[MsgId: MERR-27721]
+vuser_init.c(23): Aborting pending download of URL="http://update.googleapis.com/service/update2/json?cup2key=13:viILA91czdJtUky2g8fJhkZXIZEihqneb7JHO0rAVo0&cup2hreq=be5c0741fbd39fce506cc1cf8f10c7315a4aae6f4e77d57945df439dbf688147" (RelFrameId=1, Internal ID=5)  	[MsgId: MMSG-27649]
+vuser_init.c(23): web_custom_request("json") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
+Abort was called from an action.

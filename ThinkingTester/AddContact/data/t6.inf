@@ -1,0 +1,15 @@
+[t6]
+FileName1=t6.htm
+URL1=https://thinking-tester-contact-list.herokuapp.com/addContact
+Total=3
+RequestHeaderFile=t6_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t6_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_6.xml
+FileName2=t6_addContact.html
+URL2=https://thinking-tester-contact-list.herokuapp.com/js/addContact.js
+FileName3=t6_ChVDaHJvbWUvMTIxLjAuNjE2Ny4xODUSXwlBGgLToVF4zxIFDWtomm4SBQ1Pnif4EgUNVBZEqhIFDXhvEhkSBQ1T8nVhEgUN5lMkhhIFDdJzBf4SBQ1GZxV9EgUNoRAqzRIFDc8EedgSBQ1px8zZIYd_SOr73pij.txt
+URL3=https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTIxLjAuNjE2Ny4xODUSXwlBGgLToVF4zxIFDWtomm4SBQ1Pnif4EgUNVBZEqhIFDXhvEhkSBQ1T8nVhEgUN5lMkhhIFDdJzBf4SBQ1GZxV9EgUNoRAqzRIFDc8EedgSBQ1px8zZIYd_SOr73pij?alt=proto
+[ProtocolInfo]
+ProtocolId=QTWeb

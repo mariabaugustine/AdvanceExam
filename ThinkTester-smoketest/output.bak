@@ -1,0 +1,62 @@
+Virtual User Script started at: 24-02-2024 14:29:44
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Administrator\Desktop\LoadRunner-Final\ThinkTester-smoketest\\default.cfg"  	[MsgId: MMSG-27141]
+vuser_init.c(3): web_set_sockets_option started  	[MsgId: MMSG-26355]
+vuser_init.c(3): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+vuser_init.c(5): web_add_header("Accept-Language") started  	[MsgId: MMSG-26355]
+vuser_init.c(5): web_add_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+vuser_init.c(8): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_init.c(8): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_init.c(12): web_url("thinking-tester-contact-list.herokuapp.com") started  	[MsgId: MMSG-26355]
+vuser_init.c(12): Found resource "https://thinking-tester-contact-list.herokuapp.com/css/styles.css" in HTML "https://thinking-tester-contact-list.herokuapp.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(12): Found resource "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterLogo.png" in HTML "https://thinking-tester-contact-list.herokuapp.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(12): Found resource "https://thinking-tester-contact-list.herokuapp.com/js/login.js" in HTML "https://thinking-tester-contact-list.herokuapp.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(12): Registered web_reg_find successful for "Text=Contact List" (count=2)  	[MsgId: MMSG-26364]
+vuser_init.c(12): web_url("thinking-tester-contact-list.herokuapp.com") was successful, 15841 body bytes, 3235 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(23): web_custom_request("json") started  	[MsgId: MMSG-26355]
+vuser_init.c(23): web_custom_request("json") was successful, 949 body bytes, 1084 header bytes  	[MsgId: MMSG-26386]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Warning -27077: The "vuser_init" section contains web function(s) when the "Simulate a new user on each iteration" Runtime Setting is ON.  This may produce unpredictable results with multiple iterations  	[MsgId: MWAR-27077]
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(5): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Action.c(5): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Action.c(12): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(12): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(21): web_custom_request("login") started  	[MsgId: MMSG-26355]
+Action.c(21): web_custom_request("login") was successful, 282 body bytes, 978 header bytes  	[MsgId: MMSG-26386]
+Action.c(38): web_url("contactList") started  	[MsgId: MMSG-26355]
+Action.c(38): Found resource "https://thinking-tester-contact-list.herokuapp.com/css/styles.css" in HTML "https://thinking-tester-contact-list.herokuapp.com/contactList"  	[MsgId: MMSG-26659]
+Action.c(38): Found resource "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterLogo.png" in HTML "https://thinking-tester-contact-list.herokuapp.com/contactList"  	[MsgId: MMSG-26659]
+Action.c(38): Found resource "https://thinking-tester-contact-list.herokuapp.com/js/contactList.js" in HTML "https://thinking-tester-contact-list.herokuapp.com/contactList"  	[MsgId: MMSG-26659]
+Action.c(38): web_url("contactList") was successful, 4709 body bytes, 3169 header bytes  	[MsgId: MMSG-26386]
+Action.c(48): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(48): Warning -26592: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26592]
+Action.c(48): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(49): web_custom_request("contacts") started  	[MsgId: MMSG-26355]
+Action.c(49): web_custom_request("contacts") was successful, 2911 body bytes, 756 header bytes  	[MsgId: MMSG-26386]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+vuser_end.c(5): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+vuser_end.c(5): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+vuser_end.c(10): web_url("logout") started  	[MsgId: MMSG-26355]
+vuser_end.c(10): Found resource "https://thinking-tester-contact-list.herokuapp.com/css/styles.css" in HTML "https://thinking-tester-contact-list.herokuapp.com/logout"  	[MsgId: MMSG-26659]
+vuser_end.c(10): Found resource "https://thinking-tester-contact-list.herokuapp.com/js/logout.js" in HTML "https://thinking-tester-contact-list.herokuapp.com/logout"  	[MsgId: MMSG-26659]
+vuser_end.c(10): web_url("logout") was successful, 577 body bytes, 2396 header bytes  	[MsgId: MMSG-26386]
+vuser_end.c(19): web_custom_request("logout_2") started  	[MsgId: MMSG-26355]
+vuser_end.c(19): web_custom_request("logout_2") was successful, 0 body bytes, 659 header bytes  	[MsgId: MMSG-26386]
+vuser_end.c(29): web_url("thinking-tester-contact-list.herokuapp.com_2") started  	[MsgId: MMSG-26355]
+vuser_end.c(29): Retrieving data from cache for "https://thinking-tester-contact-list.herokuapp.com/"  	[MsgId: MMSG-26557]
+vuser_end.c(29): Found resource "https://thinking-tester-contact-list.herokuapp.com/css/styles.css" in HTML "https://thinking-tester-contact-list.herokuapp.com/"  	[MsgId: MMSG-26659]
+vuser_end.c(29): Found resource "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterLogo.png" in HTML "https://thinking-tester-contact-list.herokuapp.com/"  	[MsgId: MMSG-26659]
+vuser_end.c(29): Found resource "https://thinking-tester-contact-list.herokuapp.com/js/login.js" in HTML "https://thinking-tester-contact-list.herokuapp.com/"  	[MsgId: MMSG-26659]
+vuser_end.c(29): web_url("thinking-tester-contact-list.herokuapp.com_2") was successful, 0 body bytes, 3107 header bytes  	[MsgId: MMSG-26386]
+Ending action vuser_end.
+Vuser Terminated.

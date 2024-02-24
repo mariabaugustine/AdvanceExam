@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708759588&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=KRdqQwqaiXY6bmvsK4k3VWrHlsSSC5PBIWzGr3SjxYE%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1708759588&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=KRdqQwqaiXY6bmvsK4k3VWrHlsSSC5PBIWzGr3SjxYE%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Date: Sat, 24 Feb 2024 07:26:28 GMT
+Content-Length: 0
+Via: 1.1 vegur
+

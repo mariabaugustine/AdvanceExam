@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>AddContact</ScriptName>
+  <Protocol>Web - HTTP/HTML</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="Action.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="AddContact.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="AddContact.prm" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="details.dat" Filter="2" />
+    <FileEntry Name="combined_AddContact.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="203944167440.idx" Filter="1" />
+    <FileEntry Name="20394416744_bog.801.idx" Filter="1" />
+    <FileEntry Name="20394416744_dr7.537.idx" Filter="1" />
+    <FileEntry Name="20394416744_FmV.587.idx" Filter="1" />
+    <FileEntry Name="20394416744_iDQ.245.idx" Filter="1" />
+    <FileEntry Name="20394416744_IUz.373.idx" Filter="1" />
+    <FileEntry Name="20394416744_j91.763.idx" Filter="1" />
+    <FileEntry Name="20394416744_Jm8.87.idx" Filter="1" />
+    <FileEntry Name="20394416744_k0w.293.idx" Filter="1" />
+    <FileEntry Name="20394416744_KoF.949.idx" Filter="1" />
+    <FileEntry Name="20394416744_lIt.91.idx" Filter="1" />
+    <FileEntry Name="20394416744_MfV.251.idx" Filter="1" />
+    <FileEntry Name="20394416744_qCl.743.idx" Filter="1" />
+    <FileEntry Name="20394416744_tG8.917.idx" Filter="1" />
+    <FileEntry Name="20394416744_wBb.347.idx" Filter="1" />
+    <FileEntry Name="20394416744_wYb.671.idx" Filter="1" />
+    <FileEntry Name="20394416744_xlS.865.idx" Filter="1" />
+    <FileEntry Name="20394416744_XRY.367.idx" Filter="1" />
+    <FileEntry Name="20394416744_Y6a.407.idx" Filter="1" />
+    <FileEntry Name="AddContact.c.pickle" Filter="1" />
+    <FileEntry Name="AddContact.ci" Filter="1" />
+    <FileEntry Name="AddContact.prm.bak" Filter="1" />
+    <FileEntry Name="Bookmarks.xml" Filter="1" />
+    <FileEntry Name="Breakpoints.xml" Filter="1" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
+    <FileEntry Name="custom_body_variables.txt" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="lrw_custom_body.h" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrvmAW.65.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
+    <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="data\" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

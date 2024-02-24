@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+# SharpDevelop 4.1.3.0
+Project("66B1E41F-C2AB-41EB-983B-E1F136D3DF2C") = "AddContact", "AddContact\AddContact.usr", "66B1E41F-C2AB-41EB-983B-E1F136D3DF2C"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXEFkbWluaXN0cmF0b3JcRGVza3RvcFxMb2FkUnVubmVyLUZpbmFsXFRoaW5raW5nVGVzdGVyXEFkZENvbnRhY3RcQWRkQ29udGFjdC51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+QzpcVXNlcnNcQWRtaW5pc3RyYXRvclxEZXNrdG9wXExvYWRSdW5uZXItRmluYWxcVGhpbmtpbmdUZXN0ZXJcQWRkQ29udGFjdFxBZGRDb250YWN0LnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMjQtMDItMjRUMTI6NDU6NDguNjY1NTg0NyswNTozMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
+Project("F1F6B018-93EF-46D7-963A-0BC2B6C5530E") = "ThinkTester-smoketest", "..\ThinkTester-smoketest\ThinkTester-smoketest.usr", "F1F6B018-93EF-46D7-963A-0BC2B6C5530E"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXEFkbWluaXN0cmF0b3JcRGVza3RvcFxMb2FkUnVubmVyLUZpbmFsXFRoaW5rVGVzdGVyLXNtb2tldGVzdFxUaGlua1Rlc3Rlci1zbW9rZXRlc3QudXNyPC9Mb2FkRGF0YT4NCiAgPEZpbGVzPg0KICAgIDxGaWxlPkM6XFVzZXJzXEFkbWluaXN0cmF0b3JcRGVza3RvcFxMb2FkUnVubmVyLUZpbmFsXFRoaW5rVGVzdGVyLXNtb2tldGVzdFxUaGlua1Rlc3Rlci1zbW9rZXRlc3QudXNyPC9GaWxlPg0KICA8L0ZpbGVzPg0KICA8TW9kaWZpZWQ+MjAyNC0wMi0yNFQxNDoyMzo0My4yOTQ0NTM3KzA1OjMwPC9Nb2RpZmllZD4NCjwvUGVyc2lzdGVuY2VUb2tlbj4_
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		66B1E41F-C2AB-41EB-983B-E1F136D3DF2C.Debug|Any CPU.Build.0 = Debug|Any CPU
+		66B1E41F-C2AB-41EB-983B-E1F136D3DF2C.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		66B1E41F-C2AB-41EB-983B-E1F136D3DF2C.Release|Any CPU.Build.0 = Release|Any CPU
+		66B1E41F-C2AB-41EB-983B-E1F136D3DF2C.Release|Any CPU.ActiveCfg = Release|Any CPU
+		F1F6B018-93EF-46D7-963A-0BC2B6C5530E.Debug|Any CPU.Build.0 = Debug|Any CPU
+		F1F6B018-93EF-46D7-963A-0BC2B6C5530E.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		F1F6B018-93EF-46D7-963A-0BC2B6C5530E.Release|Any CPU.Build.0 = Release|Any CPU
+		F1F6B018-93EF-46D7-963A-0BC2B6C5530E.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

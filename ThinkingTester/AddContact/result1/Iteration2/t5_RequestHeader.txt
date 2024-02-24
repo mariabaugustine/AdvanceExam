@@ -1,0 +1,11 @@
+GET /contacts HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQ5ODgzY2MwZDcwNTAwMTNhMzQzMTciLCJpYXQiOjE3MDg3NzA1MTR9.6mT1ahSALu3-IArFRT_oQFe4I80vSXIHR-Had58hoRc
+Referer: https://thinking-tester-contact-list.herokuapp.com/contactList
+Accept-Language: en-GB,en;q=0.9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept: */*
+Connection: Keep-Alive
+Host: thinking-tester-contact-list.herokuapp.com
+Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQ5ODgzY2MwZDcwNTAwMTNhMzQzMTciLCJpYXQiOjE3MDg3NzA1MTR9.6mT1ahSALu3-IArFRT_oQFe4I80vSXIHR-Had58hoRc
+

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Administrator\Desktop\LoadRunner-Final\ThinkTester-smoketest
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\administrator\desktop\loadrunner-final\thinktester-smoketest\\logfile.log
+c:\users\administrator\desktop\loadrunner-final\thinktester-smoketest\\combined_ThinkTester-smoketest.c
+c:\users\administrator\desktop\loadrunner-final\thinktester-smoketest\\pre_cci.c
